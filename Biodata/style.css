@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  background: url('assets/img/Luppy\ bg.jpg');
+  background-size: cover;
+  color: palevioletred;
+  font-family: 'Poppins', sans-serif;
+  padding: 50px;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+nav a {
+  margin: 0 15px;
+  font-size: 16px;
+  text-decoration: none;
+  color: palevioletred;
+  font-weight: bold;
+}
+
+.container {
+  background-color: pink;
+  max-width: 900px;
+  margin: auto;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px palevioletred;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  transition: transform 0.3s ease;
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 90% 100%, 10% 100%, 0 100%);
+}
+
+.container:hover {
+  transform: scale(1.01) translateY(-3px); 
+}
+
+.left {
+  flex: 1 1 400px;
+}
+
+.right {
+  flex: 1 1 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 0 10px hotpink;
+}
+
+h1 {
+  text-align: center;
+  color:  white;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 15px 0;
+  font-size: 1em;
+  line-height: 1.6;
+  color: black;
+}
+
+a {
+  padding: 10px 20px;
+  background-color: aliceblue;
+  color: hotpink;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: hotpink;
+  color: white;
+}
+
+.favorit-awa {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.favorit-awa h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: black;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: pink;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: white;
+}
+
+.card p {
+  font-size: 14px;
+  color: black;
+}
+
+.motivasi-awa {
+  padding: 60px 20px;
+  text-align: center;
+  background: linear-gradient(to bottom right, #ffe6f0, #ffcce0);
+  border-top: 3px solid palevioletred;
+  border-bottom: 3px solid palevioletred;
+}
+
+.motivasi-awa h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: black;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.8);
+}
+
+.motivasi-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.motivasi-card {
+  background-color: rgba(255, 192, 203, 0.95);
+  color: black;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.3s ease;
+  clip-path: polygon(0 0, 100% 0, 100% 92%, 90% 100%, 10% 100%, 0 92%);
+}
+
+.motivasi-card:hover {
+  transform: scale(1.05);
+}
+
+.navigasi {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.navigasi button {
+  padding: 10px 25px;
+  background-color: palevioletred;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.navigasi button:hover {
+  background-color: hotpink;
+}
+
+.jam {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: palevioletred;
+  padding: 10px;
+  margin-bottom: 15px; 
+}
